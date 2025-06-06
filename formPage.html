@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Section</title>
+    <link rel="stylesheet" href="/styleSheet.css">
+</head>
+<body>
+
+    <header id="Header">
+        <div id="logo">
+            <!-- <img src="images/logo6.png" alt="Logo" id="logoImage"> -->
+            <h1 id="Name">Ramesh Electricals</h1>
+            </div>
+            <nav id="NavBar">
+                <ul id="NavLinks">
+                  <li><a href="/index.html">Home</a></li>
+                  <li><a href="/Services.html">Services</a></li>
+                  <li><a href="/WorkShop.html">WorkShop</a></li>
+                  <li><a href="/AboutUs.html">About</a></li>
+                </ul>
+                <button id="GAQ2"><a href="/formPage.html">Get a Quote</a></button>
+            </nav>
+        <div id="Bar">
+            <span class="barItem"></span>
+            <span class="barItem"></span>
+            <span class="barItem"></span>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="QuoteRequestForm-container">
+            <div id="QRFContainer">
+            <h1>Quote Request Form</h1>
+            <form action="https://formsubmit.co/viraltamilan13072005@gmail.com" method="POST" class="QuoteRequestForm" id="quoteRequestForm">
+                <div id="row-qrf-1">
+                    <div id="row-qrf-1a">
+                        <label for="companyName">Enter Your Company Name</label>
+                        <input type="text" id="companyName" name="companyName" required>
+                    </div>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                </div>
+                <div id="row-qrf-2">
+                    <div>
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="mobile">Mobile Number</label>
+                        <input type="text" id="mobile" name="mobile" maxlength="10" required>
+                    </div>
+                </div>
+                <div id="row-qrf-4">
+                    <div>
+                        <label for="service">Choose Your Service</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="Electrical Consultancy">Electrical Consultancy</option>
+                            <option value="Electrical Panel Fabrication">Electrical Panel Fabrication</option>
+                            <option value="Electrical Goods">Electrical Goods</option>
+                            <option value="Fire Fighting System">Fire Fighting System</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="sector">Choose Your Sector</label>
+                        <select id="sector" name="sector" required>
+                            <option value="">Select a sector</option>
+                            <option value="Industries">Industries</option>
+                            <option value="Hotels">Hotels</option>
+                            <option value="IT Parks">IT Parks</option>
+                            <option value="Hospitals">Hospitals</option>
+                            <option value="Commercial Complex">Commercial Complex</option>
+                            <option value="Residential Complexes">Residential Complexes</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="row-qrf-3">
+                    <div>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" required>
+                    </div>
+                    <div>
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state" required>
+                    </div>
+                    <div>
+                        <label for="pinCode">PinCode</label>
+                        <input type="text" id="pinCode" name="pinCode" required>
+                    </div>
+                </div>
+            
+                <button type="submit" id="Q-S-btn">Submit</button>
+            </form>
+            
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer id="footers">
+        <div id="Q-L">
+         <h1 style="font-weight:500">Quick Links</h1>
+         <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/Services.html">Services</a></li>
+            <li><a href="/WorkShop.html">WorkShop</a></li>
+            <li><a href="/AboutUs.html">About</a></li>
+            <li><a href="/formPage.html">Get a Quote</a></li>
+         </ul>
+        </div>
+        <div id="location">
+         <h1 style="font-weight:500; margin-bottom: 20px;">Location</h1>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.809934790999!2d79.17019837019099!3d12.945707727281057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad471893bbf507%3A0xa0336e712265c237!2sRamesh%20Electricals%20(Electrical%20Engineers%2F%20Electrical%20Contractors)!5e0!3m2!1sen!2sin!4v1726920012594!5m2!1sen!2sin" width="400px" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="margin:20px;" id="Gmap"></iframe>
+        </div>
+         <div id="Contact-us">
+             <div>
+                 <h1 style="font-weight:500">Contact Info</h1>
+                 <div id="C-U">
+                     <img src="icon/mail.png" alt="gmail" style="width:24px; height:24px; object-fit:contain;">
+                     <a href="mailto:RameshElectricals@gmail.com" style="align-self:center;">RameshElectricals@gmail.com</a>
+                 </div>
+                 <div id="C-U">
+                     <img src="icon/whatsapp.png" alt="gmail">
+                     <a href="#" style="align-self:center;">Whatsapp</a>
+                 </div>
+                 <div id="C-U">
+                     <img src="icon/phone.png" alt="gmail">
+                     <span style="align-self:center; user-select:text;">94869 55264</span>
+                 </div>
+                 </div>
+                 <h1 style="font-weight: 500;">Address</h1>
+                 <address>
+                     <p>Ramesh Electricals</p>
+                     <p>Phase III, Sathuvachari</p>
+                     <p>Vellore, Tamil Nadu 632009</p>
+                 </address>
+         </div>
+        </div>
+     </footer>
+     <div id="CL">
+         <span style="align-self:center; padding-right:3px;">Designed and Developed By </span>
+         <img src="icon/logo.png" alt="logo" width="24px" height="24px" style="object-fit: contain;">
+         <span style="align-self:center; padding-left:3px;"> Abi Softwares</span>
+         </div>
+         <script type="text/javascript">
+            Bar.addEventListener('click',(e)=>
+            {
+                const NavBar = document.getElementById("NavBar");
+                const  barItem = document.getElementsByClassName("barItem");
+                NavBar.classList.toggle('navActive');
+                if(NavBar.classList.contains('navActive'))
+                {
+                    Bar.classList.add('barActive');
+                }
+                else{
+                    Bar.classList.remove('barActive');
+                }
+            });
+                document.getElementById("quoteRequestForm").addEventListener("submit", function(event) {
+                    let valid = true;
+            
+                    // Validate required fields
+                    const requiredFields = document.querySelectorAll("[required]");
+                    requiredFields.forEach(function(input) {
+                        if (!input.value.trim()) {
+                            valid = false;
+                            input.style.borderColor = "red"; // Highlight the invalid field
+                        } else {
+                            input.style.borderColor = ""; // Reset the border color
+                        }
+                    });
+            
+                    // Additional validation for email
+                    const emailInput = document.getElementById("email");
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (emailInput && !emailRegex.test(emailInput.value)) {
+                        valid = false;
+                        emailInput.style.borderColor = "red";
+                    }
+            
+                    // If validation fails, prevent form submission
+                    if (!valid) {
+                        event.preventDefault();
+                        alert("Please fill out all required fields correctly.");
+                    }
+                });
+         </script>
+</body>
+</html>
